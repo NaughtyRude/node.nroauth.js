@@ -1,0 +1,9 @@
+{
+  "client_id": "123",
+  "client_secret": "secret",
+  "url": {
+    "redirect": "http://localhost:3001/connect/res"
+  },
+  "scope": "demo",
+  "state": "123"
+}

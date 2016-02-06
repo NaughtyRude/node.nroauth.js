@@ -1,0 +1,22 @@
+
+extends layout
+
+block content
+  include intro
+
+  h2.ok Request has been successful
+  table.ok
+    tr
+      td access_token
+      td.access_token #{access_token}
+    tr
+      td token_type
+      td #{token_type}
+    tr
+      td state
+      td #{state}
+    tr
+      td scope
+      td #{scope}
+  p.msg
+    a(href='/') Try again ?

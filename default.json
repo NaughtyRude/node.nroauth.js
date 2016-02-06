@@ -1,0 +1,12 @@
+{
+  "response_type": "code",
+  "url": {
+    "redirect": "/connected"
+  },
+  "endpoint": {
+    "request_token": "https://localhost:3005/oauth/token",
+    "authorize": "https://localhost:3005/oauth/authorize",
+    "authenticate": "https://localhost:3005/oauth/authenticate"
+  },
+  "grant_type": "authorization_code"
+}

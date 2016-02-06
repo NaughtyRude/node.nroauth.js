@@ -1,0 +1,19 @@
+{
+  "name": "nr-oauth",
+  "description": "NaughtyRude.com OAuth2 authorization module for Node.js",
+  "version": "0.1.0",
+  "author": "The NaughtyRude Team",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/naughtyrude/node-nr-oauth.git"
+  },
+  "contributors": [
+    "Cj Diamond <mrcjdiamond@gmail.com>"
+  ],
+  "main": "./index.js",
+  "license": "MIT",
+  "dependencies": {
+    "debug": "*",
+    "superagent": "0.17.0"
+  }
+}
